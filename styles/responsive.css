@@ -1,0 +1,226 @@
+@media screen and (max-width:600px) {
+    .our-popular-tours,.why-choose-us-container,.newsletter-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .our-popular-tours-img,.newsletter-img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .our-popular-tours-text{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .our-popular-tours-text .ul-list p {
+        margin-bottom: 10px;
+    }
+    .our-popular-tours-text p{
+        margin-bottom: 0;
+    }
+    .why-choose-us-container .card-1,.why-choose-us-container .card-2,.why-choose-us-container-2 .card-3{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .newsletter-text{
+        width: 100%;
+    }
+    .newsletter-text p{
+        margin-left: 30px;
+    }
+    .input-text input{
+        margin-left: 20px;
+    }
+    .newsletter-text .btn-primary{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+        padding: 10px 50px;
+    }
+    .newsletter-container{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: auto;
+        margin: 0;
+    }
+    .input-text input{
+        margin-left: 24px;
+        margin-right: 24px;
+        padding-top: 10px ;
+        padding-bottom: 10px ;
+        padding-left: 10px ;
+        padding-right: 20px ;
+    }
+    .newsletter-container .border-bottom{
+        width: 80%;
+        margin-bottom: 16px;
+        margin-left: 23px;
+        margin-left: 23px;
+    }
+    .newsletter-text p{
+        margin-right: 0;
+        margin-bottom: 16px;
+        margin-left: 23px;
+    }
+    .newsletter-text h3{
+        margin: 0;
+        margin-left: 23px;
+        margin-top: 24px;
+    }
+    .newsletter-img img{
+        height: auto;
+    }
+    .newsletter-img{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+        
+    }
+    /* .footer-top{
+        flex-direction: column;
+    } */
+    .footer-top img{
+       align-items: center;
+        justify-content: center;
+    }
+    .footer-top img{
+        margin: 0;
+    }
+    .footer-top h2{
+        margin: 0;
+    }
+    .footer-container{
+     /* margin-top: 200px; */
+    }
+    .footer-bottom h3{
+        margin: 0;
+        margin-top: 20px;
+        padding-bottom: 30px;
+    }
+    .footer-middle{
+        margin: 0;
+    }
+    .footer-middle img{
+        margin: 0;
+    }
+    .footer-container .horizontal-line{
+        width: 90%;
+        margin: 0;
+        margin-top: 24px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    /* Choose your destination */
+    .row{
+        flex-direction: column;
+        /* margin-bottom: 20px; */
+        justify-content: center;
+        gap: 20px;
+        height: auto;
+    }
+    /* Header section */
+    .header-section,.nav-container, .items-container{
+        flex-direction: column;
+    }
+    .nav-container,.items-container{
+        width: 100%;
+    }
+    .banner-container{
+        width: 100%;
+        height: auto;
+    }
+    .travel-card-container{
+        flex-direction: column;
+        width: 80%;
+    }
+    .travel-card-container .card-1{
+        flex-direction: column;
+        height: auto;
+    }
+    .travel-card-container .card-2{
+        flex-direction: column;
+        height: auto;
+    }
+    .travle-article{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .travel-card-container .card-1 img{
+        margin: 0;
+        margin-left: 50px;
+    }
+    .travel-card-container .card-2 img{
+        margin: 0;
+        margin-left: 50px;
+    }
+    .travel-card-container .card-1 .card-desc h3{
+        margin-left: 30px;
+        width: 100%;
+    }
+    .travel-card-container .card-2 .card-desc h3{
+        margin-left: 30px;
+        width: 100%;
+    }
+    .travel-card-container .card-1 .card-desc p{
+        margin: 0;
+        margin-left: 30px;
+        width: 100%;
+    }
+    .travel-card-container .card-2 .card-desc p{
+        margin: 0;
+        margin-left: 30px;
+        width: 100%;
+    }
+    .travel-card-container .card-1 .card-desc h4{
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .travel-card-container .card-2 .card-desc h4{
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .border-readmore{
+        margin-left: 30px;
+        width: 40%;
+    }
+    .input{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .banner-heading{
+        padding: 0;
+        font-size: 2rem;
+        padding-top: 20px;
+    }
+    .input #where{
+        width: 100%;
+    }
+    .input #when{
+       width: 100%;
+    }
+    .input #option{
+        width: 100%;
+    }
+    .input #find{
+        width: 100%;
+    }
+    .banner-desc{
+        margin-bottom: 10px;
+    }
+    .travel-com{
+        width: 174px;
+        bottom: 150px;
+        left: 74px;
+        padding: 25px;
+    }
+    .travel-com h3{
+        font-size: 18px;
+    }
+    .travel-com h1{
+        font-size: 20px;
+    }
+}
